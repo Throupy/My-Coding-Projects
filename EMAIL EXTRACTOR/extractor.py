@@ -3,8 +3,7 @@ from validate_email import validate_email
 import requests
 import re
 import csv
-urls_to_parse = ["https://github.com/Throupy/GCSE-Computing-Projects/blob/master/README.md",
-                 "https://github.com/Throupy/My-Coding-Projects/blob/master/WORD%20OCCURENCES/README.md"]
+urls_to_parse = ["https://github.com/Throupy/My-Coding-Projects/blob/master/EMAIL%20EXTRACTOR/sample_files.md"]
 
 def write_data(emails):
     with open('emails.csv', mode='a') as email_file:
