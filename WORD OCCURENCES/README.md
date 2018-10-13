@@ -1,3 +1,7 @@
+owenthroupy@gmail.com
+yeet@gmail.com
+
+
 # Word Occurences
 
 This program parses a website using BeautifulSoup4 and urllib and finds the 5 words with the most occurences.
