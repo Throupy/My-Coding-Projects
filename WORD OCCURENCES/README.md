@@ -18,5 +18,4 @@ pip install matplotlib
 ```
 
 ### Screenshots
-Inline-style: 
-![alt text]()
+[logo]: https://github.com/Throupy/My-Coding-Projects/blob/master/WORD%20OCCURENCES/screenshots/command_promt.png "Logo Title Text 2"
