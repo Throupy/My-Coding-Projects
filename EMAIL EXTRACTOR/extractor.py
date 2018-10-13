@@ -13,6 +13,7 @@ def write_data(emails):
             email_writer.writerow([email])   
 
 def parse(page):
+    """Parses the HTML to find email addresses"""
     emails = [] #Empty set of emails
     soup = BeautifulSoup(page.content, "html.parser") #parse the page
     new_emails = list(re.findall(r"[a-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]+", soup.text, re.I)) #find emails with regex
