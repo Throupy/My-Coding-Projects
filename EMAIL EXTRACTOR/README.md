@@ -17,9 +17,8 @@ pip install validate_email
 ```
 
 ### Screenshots
-Running the program from the command prompt
 <img src="https://github.com/Throupy/My-Coding-Projects/blob/master/EMAIL%20EXTRACTOR/screenshots/csv_file.png">
 
-<img src="https://github.com/Throupy/My-Coding-Projects/blob/master/EMAIL%20EXTRACTOR/screenshots/shell.png>
+<img src="https://github.com/Throupy/My-Coding-Projects/blob/master/EMAIL%20EXTRACTOR/screenshots/shell.png">
 
 
