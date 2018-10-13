@@ -18,4 +18,13 @@ pip install matplotlib
 ```
 
 ### Screenshots
-[logo]: https://github.com/Throupy/My-Coding-Projects/blob/master/WORD%20OCCURENCES/screenshots/command_promt.png "Logo Title Text 2"
+Running the program from the command prompt
+<img src="https://github.com/Throupy/My-Coding-Projects/blob/master/WORD%20OCCURENCES/screenshots/command_promt.png">
+
+<img src="https://github.com/Throupy/My-Coding-Projects/blob/master/WORD%20OCCURENCES/screenshots/graph.png" width=300 height=270>
+
+
+### Argparse information
+Argparse only takes one command from the command prompt which is `--url` which is the URL to parse </br>
+an example would be: `python word_times_finder.py --url "https://www.youtube.com"`
+
