@@ -6,6 +6,7 @@ import csv
 urls_to_parse = ["https://github.com/Throupy/My-Coding-Projects/blob/master/EMAIL%20EXTRACTOR/sample_files.md"]
 
 def write_data(emails):
+    """This function writes the data to the CSV file"""
     with open('emails.csv', mode='a') as email_file:
         email_writer = csv.writer(email_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         for email in emails[0]:
