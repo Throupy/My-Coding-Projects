@@ -1,5 +1,3 @@
-#13/12/2017
-
 import random
 import logging
 
