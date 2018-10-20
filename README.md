@@ -15,3 +15,8 @@
     <td>This program parses a list of URLs and uses regex to find email addresses. It then compares those email addresses against a DNS server to see if they are actually real/exist. After that the valid email addresses get saves to a csv file.</td>
     <td>13/10/2018</td>
   </tr>
+  <tr>
+    <td>Random Maths Quiz</td>
+    <td style="color: red">This program is a work in progress. Check back for more information soon!</td>
+    <td>13/10/2018</td>
+  </tr>
