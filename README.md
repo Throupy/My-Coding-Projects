@@ -17,6 +17,6 @@
   </tr>
   <tr>
     <td>Random Maths Quiz</td>
-    <td style="color: red">This program is a work in progress. Check back for more information soon!</td>
-    <td>N/A</td>
+    <td>This program gives random maths questions such as random calculation and Sin/Cos/Tan0-90. If you get it right or wrong it will save what you put and what the answer was to a log file. There is also a config file which you can use to change the number of rounds played</td>
+    <td>21/10/2018</td>
   </tr>
