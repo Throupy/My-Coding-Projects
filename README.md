@@ -18,5 +18,5 @@
   <tr>
     <td>Random Maths Quiz</td>
     <td style="color: red">This program is a work in progress. Check back for more information soon!</td>
-    <td>13/10/2018</td>
+    <td>N/A</td>
   </tr>
