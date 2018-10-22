@@ -20,3 +20,8 @@
     <td>This program gives random maths questions such as random calculation and Sin/Cos/Tan0-90. If you get it right or wrong it will save what you put and what the answer was to a log file. There is also a config file which you can use to change the number of rounds played</td>
     <td>21/10/2018</td>
   </tr>
+  <tr>
+    <td>Flask Project</td>
+    <td>This program is a work in progress. I will update when I finish a chunk of coding. NOT FINISHED</td>
+    <td>N/A</td>
+  </tr>
