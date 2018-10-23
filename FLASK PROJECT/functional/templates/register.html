@@ -60,6 +60,10 @@
                             {{ form.confirm_password(class="form-control form-control-lg") }}
                         {% endif %}
                     </div>
+                    <div class="form-check"> <!-- for the remember me -->
+                        {{ form.subscribe(class="form-check-input") }}
+                        {{ form.subscribe.label(class="form-check-label") }}
+                    </div>
                 </fieldset>
                 <div class="form-group">
                     {{ form.submit(class="btn btn-outline-success") }}

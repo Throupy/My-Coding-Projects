@@ -1,11 +1,20 @@
 from datetime import datetime
-from functional import db
+from functional import db, login_manager
+from flask_login import UserMixin
 
 
-class User(db.Model):
+@login_manager.user_loader  # links to login manager
+def load_user(user_id):
+    return User.query.get(int(user_id))  # return a user from database with passed in ID
+
+
+class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True, nullable=False)
     email = db.Column(db.String(80), unique=True, nullable=False)
+    image_file = db.Column(db.String(20), nullable=False, default='default.jpg')
+    subscribed = db.Column(db.Boolean, nullable=False, default=False)
+    is_admin = db.Column(db.Boolean, nullable=False, default=False)
     password = db.Column(db.String(80), unique=False, nullable=False)
     posts = db.relationship('Post', backref='author', lazy=True)
     # relationship to post model
